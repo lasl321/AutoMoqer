@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace AutoMoqer.Test
+namespace AwkwardTools.Testing
 {
-    public class Class1
+    public interface IHelper
     {
+        void DoSomething();
     }
 }
