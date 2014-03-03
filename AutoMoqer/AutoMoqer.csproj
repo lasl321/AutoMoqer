@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="AutoMoqer.cs" />
     <Compile Include="AutoMoqerException.cs" />
+    <Compile Include="ConstructorExtractor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

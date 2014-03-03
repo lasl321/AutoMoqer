@@ -33,6 +33,16 @@ namespace AwkwardTools.Testing
             var instance = new ClassWithMultipleConstructorsWrapper();
             instance.SetUp();
         }
+
+        [Test]
+        public void ShouldThrowException()
+        {
+            var a = new[] { "a", "b", "c" };
+
+            var r = a.SingleOrDefault();
+
+            Assert.That(r, Is.EqualTo("a"));
+        }
     }
 
     public class ClassWithMultipleConstructorsWrapper : AutoMoqer<ClassWithMultipleConstructors>
